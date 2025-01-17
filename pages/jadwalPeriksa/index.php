@@ -265,7 +265,7 @@
 
                             while ($data = mysqli_fetch_assoc($result)) {
                                 echo "<tr>
-                                    <td>{$no++}</td>
+                                    <td><?php echo $no++; ?></td>
                                     <td>{$data['nama']}</td>
                                     <td>{$data['hari']}</td>
                                     <td>{$data['jam_mulai']}</td>
